@@ -1,0 +1,9 @@
+# Managed by Chef for <%= node['hostname'] %>
+
+Alias / <%= node['kitchen_mysql']['document_root'] %>/
+
+<Directory <%= node['kitchen_mysql']['document_root'] %> >
+	Options FollowSymLinks +Indexes
+	Allow from All
+</Directory>
+

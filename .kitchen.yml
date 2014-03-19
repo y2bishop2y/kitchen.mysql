@@ -6,7 +6,11 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: ubuntu-12.04
+- name: ubuntu-12.04
+  driver_config:
+    network:
+    - ["private_network", {ip: "33.33.33.10"}]
+
 
 
 suites:
