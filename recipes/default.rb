@@ -1,13 +1,11 @@
-
-
-
-# if node['platform'] == "ubuntu" && node['platform_version'].to_f <= 10.04
-#   package "git-core"
-# else
-#   package "git"
-# end 
+# Cookbook Name:: kitchen_mysql
+# Recipe:: default
 #
-# log "Well that was too easy" 
+# Copyright (C) 2013 Emiliano Berenbaum
+#
+# All rights reserved - Do Not Redistribute
+#
 
 
-include_recipe "kitchen.mysql::git"
+
+include_recipe "kitchen_mysql::git"
