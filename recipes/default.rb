@@ -18,3 +18,5 @@ end
 
 
 include_recipe "kitchen_mysql::git"
+
+include_recipe 'apache2'

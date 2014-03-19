@@ -10,5 +10,4 @@ version     	"1.0.0"
 recipe   		"kitchen_mysql", 	  "Includes the reipe to configure server"
 recipe			"kitchen_mysql::git", "Installs git"
 
-
-# depends 'git',  '~> 1.7.5'
+depends 'apache2', '~> 1.8.0'
