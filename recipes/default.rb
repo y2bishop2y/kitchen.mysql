@@ -7,5 +7,14 @@
 #
 
 
+group node['kitchen_mysql']['group']
+
+user node['kitchen_mysql']['user'] do 
+	group node['kitchen_mysql']['group'] 
+	system true
+	shell '/bin/bash'
+end
+
+
 
 include_recipe "kitchen_mysql::git"

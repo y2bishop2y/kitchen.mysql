@@ -1,2 +1,3 @@
+# Kitchen testing
 
-#---- TEST
+## Testing Chef configuration with Kitchen 
