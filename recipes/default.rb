@@ -9,4 +9,4 @@
 include_recipe "kitchen_mysql::git"
 
 include_recipe "kitchen_mysql::webserver"
-
+include_recipe "kitchen_mysql::database"

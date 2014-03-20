@@ -11,3 +11,5 @@ recipe   		"kitchen_mysql", 	  "Includes the reipe to configure server"
 recipe			"kitchen_mysql::git", "Installs git"
 
 depends 'apache2', '~> 1.8.0'
+depends 'mysql', '~> 4.0.0'
+depends 'database', '~> 1.6.0'
